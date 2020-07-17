@@ -1,0 +1,92 @@
+#hp {
+    width: 100%;
+    min-height: 15px;
+    background: red;
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: auto;
+
+
+
+
+}
+
+.HP {
+    width: 150px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+#attack {
+    margin-top: 3%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    transition: .3s;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#attack:focus {
+
+    outline: none;
+}
+
+#dps {
+    padding-bottom: 15px;
+    height: auto;
+    color: red;
+    font-family: fantasy;
+
+}
+
+.dps {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+
+
+}
+
+.wr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px black;
+    transition: .2s;
+
+}
+
+.wr:hover {
+    margin-top: 4%;
+    box-shadow: 1px 5px 10px 2px black;
+    transform: scale(1.01)
+}
+
+#attack:active {
+    border: 2px solid red;
+
+
+}
+
+.text {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+img {
+    width: 100%;
+}
